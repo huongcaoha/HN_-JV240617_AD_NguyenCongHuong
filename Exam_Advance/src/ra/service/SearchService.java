@@ -7,13 +7,13 @@ public class SearchService {
     public static void main(String[] args) {
       while (true){
           System.out.println("*********************************SEARCH-MANAGEMENT***********************************");
-          System.out.println("|                                                                                                                                                                    |");
-          System.out.println("|                                     1.Tìm kiếm bài hát theo tên ca sĩ hoặc thể loại                                         |");
-          System.out.println("|                                     2.Tìm kiếm ca sĩ theo tên hoặc thể loại                                                       |");
-          System.out.println("|                                     3.Hiển thị danh sách bài hát theo thứ tự tên tăng dần                             |");
-          System.out.println("|                                     4.Hiển thị 10 bài hát được đăng mới nhất                                                   |");
-          System.out.println("|                                     5. Thoát                                                                                                                |");
-          System.out.println("|                                                                                                                                                                    |");
+          System.out.println("*                                                                                                                                                                   *");
+          System.out.println("*                                     1.Tìm kiếm bài hát theo tên ca sĩ hoặc thể loại                                        *");
+          System.out.println("*                                     2.Tìm kiếm ca sĩ theo tên hoặc thể loại                                                      *");
+          System.out.println("*                                     3.Hiển thị danh sách bài hát theo thứ tự tên tăng dần                            *");
+          System.out.println("*                                     4.Hiển thị 10 bài hát được đăng mới nhất                                                  *");
+          System.out.println("*                                     5. Thoát                                                                                                               *");
+          System.out.println("*                                                                                                                                                                    *");
           System.out.println("***********************************************************************************************");
           int choice = 0 ;
           choice = Common.getInputInt(choice,"Enter choice : ");
